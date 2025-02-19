@@ -1,0 +1,26 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    /* height: 550px;
+    width: 634px;
+    border: 2px solid black; */
+    display: flex;
+    gap: 20px;
+}
+img{
+    height: 250px;
+    width: 100px;
+    border: 2px solid red;
+}
+
+
+img:hover{
+    height: 250px;
+    width: 250px;
+    border: 2px solid red;
+    cursor: pointer;
+}
